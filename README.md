@@ -14,5 +14,5 @@ Welcome to My Private JavaScript Repository!</h1>
 
 ---
 
-![JavaScript Code](
+![JavaScript Code](https://v8953014.github.io/www-objects/JS.jpg)
 
