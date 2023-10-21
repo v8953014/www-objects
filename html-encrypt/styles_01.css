@@ -49,10 +49,11 @@
  }
  
  
- .button-group button.paste-button {
+.button-group button#pasteButton {
    background-color: #2196F3;
    color: #fff;
 }
+
 
 
  header {
