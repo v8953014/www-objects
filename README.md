@@ -17,5 +17,7 @@ Welcome to My Private JavaScript Repository!</h1>
 
 ---
 
+<a href="https://v8953014.github.io/www-objects/">Html Encrypt |　HTML加密工具 </a>
+最新的HTML加密，保護你的個人網頁源碼！
 
 
