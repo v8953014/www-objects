@@ -14,4 +14,6 @@
       var encryptedHTML = '<!DOCTYPE html>\n<html lang="zh-tw">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">' + encryptedContent + '</body>' + additionalScripts + '\n</html>';
       // 將加密後的HTML顯示在文本區域
       document.getElementById("encryptedHTML").value = encryptedHTML;
+
+        console.log(secret_key);
     }
