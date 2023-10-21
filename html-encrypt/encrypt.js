@@ -9,7 +9,7 @@
       contentToEncrypt = contentToEncrypt.slice(0, 1) + scriptToAdd + contentToEncrypt.slice(1);
       var encryptedContent = CryptoJS.AES.encrypt(contentToEncrypt, secretKey).toString();
       // 額外的加密腳本
-      var additionalScripts = '\n<' + 'script src="crypto-js.js"></script' + '>' + '\n<' + 'script src="DE4.js"></script' + '>';
+      var additionalScripts = '\n<' + 'script src="https://v8953014.github.io/www-objects/html-encrypt/crypto-js.js"></script' + '>' + '\n<' + 'script src="https://v8953014.github.io/www-objects/html-encrypt/DE4.js"></script' + '>';
       // 構建加密後的HTML碼
       var encryptedHTML = '<!DOCTYPE html>\n<html lang="zh-tw">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">' + encryptedContent + '</body>' + additionalScripts + '\n</html>';
       // 將加密後的HTML顯示在文本區域
