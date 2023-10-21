@@ -47,6 +47,13 @@
    background-color: #008CBA;
    color: #fff;
  }
+ 
+ 
+ .button-group button.paste-button {
+   background-color: #2196F3;
+   color: #fff;
+}
+
 
  header {
    background-color: #4caf50;
